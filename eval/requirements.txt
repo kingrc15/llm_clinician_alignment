@@ -1,0 +1,10 @@
+bert-score>=0.3.13
+nltk>=3.8
+sacrebleu>=2.4
+pandas>=2.0
+pyarrow>=14
+numpy>=1.26,<2
+sentence-transformers>=3.0
+scikit-learn>=1.4
+tqdm>=4.66
+matplotlib>=3.8

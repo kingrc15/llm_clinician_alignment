@@ -1,0 +1,10 @@
+# Create from this directory:  conda env create -f environment.yml
+# (The editable pip path "." is relative to the cwd where you run conda.)
+name: readmission-agent-share
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - -e ".[graph]"

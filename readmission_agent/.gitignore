@@ -1,0 +1,11 @@
+.venv/
+*.egg-info/
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs/
+runs/
+*.parquet
+reasoning_tree/outputs/
+**/.embedding_cache.json
+**/.llm_canonicalize_cache.json

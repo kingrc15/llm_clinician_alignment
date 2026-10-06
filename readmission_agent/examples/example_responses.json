@@ -1,0 +1,17 @@
+{
+  "prompt": "Why is the patient likely having a STEMI?",
+  "responses": [
+    {
+      "trajectory_id": "r1",
+      "text": "Patient has elevated troponin.\nElevated troponin suggests myocardial injury.\nECG shows ST elevation.\nST elevation indicates STEMI."
+    },
+    {
+      "trajectory_id": "r2",
+      "text": "High troponin implies cardiac damage.\nECG ST elevation supports infarction.\nLikely STEMI."
+    },
+    {
+      "trajectory_id": "r3",
+      "text": "Troponin is up which means myocardial injury.\nST elevation on ECG.\nPicture is consistent with STEMI."
+    }
+  ]
+}

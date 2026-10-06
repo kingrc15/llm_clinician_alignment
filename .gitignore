@@ -1,0 +1,51 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+credentials.json
+secrets/
+notes.txt
+**/hf_token*
+**/*token*.txt
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# MIMIC / PHI / cohort extracts (PhysioNet DUA)
+*.parquet
+*.csv
+!eval/requirements.txt
+2026*/
+*.zip
+npj.pdf
+data/
+outputs/
+.venue-review/
+eval/data/crosswalk.csv
+eval/data/crosswalk.validation.json
+eval/data/reviewed_row_ids.txt
+eval/data/COHORT_ALIGNMENT.md
+
+# Model caches, logs, IDE
+*.log
+hf_cache/
+.cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Nested pipeline copies (keep source only)
+readmission_agent/.venv/
+readmission_agent/outputs/
+readmission_agent/runs/
+readmission_agent/**/.embedding_cache.json
+readmission_agent/**/.llm_canonicalize_cache.json
